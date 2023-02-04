@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Vasya",
+    "phoneNumber": "537",
+    "sex": "MAN"
+  },
+  {
+    "name": "Puff",
+    "phoneNumber": "920",
+    "sex": "UNKNOWN"
+  },
+  {
+    "name": "Olga",
+    "phoneNumber": "206",
+    "sex": "WOMAN"
+  },
+  {
+    "name": "Petya",
+    "phoneNumber": "104",
+    "sex": "MAN"
+  },
+  {
+    "name": "Meow",
+    "phoneNumber": "241",
+    "sex": "UNKNOWN"
+  },
+  {
+    "name": "Sergey",
+    "phoneNumber": "985",
+    "sex": "MAN"
+  },
+  {
+    "name": "Ann",
+    "phoneNumber": "985",
+    "sex": "WOMAN"
+  }
+]
