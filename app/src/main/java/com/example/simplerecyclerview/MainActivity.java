@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 
 import com.google.gson.Gson;
@@ -13,6 +14,7 @@ import com.google.gson.reflect.TypeToken;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +43,8 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
     @Override
     public void onItemClick(User item) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("user", item);
+        //intent.putExtra("user", (Serializable) item);
+        intent.putExtra("user", (Parcelable) item);
         startActivity(intent);
     }
 }

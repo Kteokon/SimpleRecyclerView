@@ -21,7 +21,8 @@ public class SecondActivity extends AppCompatActivity {
         tvName = findViewById(R.id.name);
         tvPhone = findViewById(R.id.phone);
         Intent intent = getIntent();
-        User user = (User) getIntent().getSerializableExtra("user");
+        //User user = getIntent().getSerializableExtra("user");
+        User user = getIntent().getParcelableExtra("user");
         switch (user.getSex()) {
             case MAN: this.ivUserpic.setImageResource(R.drawable.user_man); break;
             case WOMAN: this.ivUserpic.setImageResource(R.drawable.user_woman); break;
